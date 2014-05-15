@@ -41,7 +41,7 @@ def primeloop(y):
 				print str(y) + ' is prime.'
 
 
-
+"""
 def primearray(y):
 	siv=[2]
 	for x in xrange(0,len(siv)):
@@ -50,3 +50,4 @@ def primearray(y):
 		elif x=len(siv):
 			siv.append(y)
 			print siv
+"""
