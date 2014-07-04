@@ -1,4 +1,4 @@
-import os, sys, time
+import os, sys
 import pygame
 from pygame.locals import *
 
@@ -151,8 +151,7 @@ def gameLoop():
 				sys.exit()
 
 		pygame.display.update()
-		fpsClock.tick(30)
-		time.sleep(.3)
+		fpsClock.tick(10)
 
 
 gameLoop()
